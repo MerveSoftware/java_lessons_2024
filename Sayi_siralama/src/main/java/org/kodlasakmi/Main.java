@@ -18,7 +18,7 @@ public class Main {
             enbuyuk=(sayi2>sayi3)?sayi2:sayi3;
         } else if (sayi2<=sayi1&&sayi2<=sayi3) {
             enkucuk =sayi2;
-            ortanca=(sayi3<=sayi3)?sayi1:sayi3;
+            ortanca=(sayi1<=sayi3)?sayi1:sayi3;
             enbuyuk=(sayi1>sayi3)?sayi1:sayi3;
 
         }else {
